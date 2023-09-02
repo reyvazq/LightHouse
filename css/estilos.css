@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap');
+@import url(menu.css);
+@import url(banner.css);
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Golos Text', sans-serif;
+    min-height: 150vh;
+}
+
+
+header p{
+    color: black;
+}
+
+
+.conte{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+header .conte{
+display: table;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+
+main{
+    min-height: 100vh;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dv{
+    align-items: justify;
+    width: auto;
+    padding: 25px;
+}
+
+
+.dv h2{
+    text-align: center;
+}
+
+
+
+
+#piedpaggrind{
+    background: rgb(245,16,27);
+background: linear-gradient(0deg, rgba(245,16,27,0.8701855742296919) 19%, rgba(68,59,231,1) 75%);
+}
+#barra{
+    font-family: 'Golos Text', sans-serif;
+    color: white;
+    font-size: large;
+    background: rgb(245,16,27);
+    background: linear-gradient(90deg, rgba(245,16,27,1) 16%, rgba(68,59,231,1) 64%);
+}
+
+#snork{
+    background: linear-gradient(rgba(7,7,12,0.65),rgba(7,7,12,0.65)),url(../img/1.jpg),no-repeat center center fixed;
+
+}
+#botones{
+font-size: 40vh;
+}
